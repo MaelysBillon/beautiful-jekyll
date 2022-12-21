@@ -10,21 +10,22 @@
 ############################
 
 # Name of website
-title: DogeeseseegoD data story
+title: Dogeeseseegod
 
 # Your name to show in the footer
-author: Best Broup Ever
+author: Dogeeseseegod
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  #About Me: "aboutme"
+  Research question:
+    - first: "https://beautifuljekyll.com"
+    - second: "https://www.markdowntutorial.com/"
+    - third: "https://www.markdowntutorial.com/"
+  #Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
