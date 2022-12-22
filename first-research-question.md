@@ -21,7 +21,7 @@ We can now analyze what is the tolerance per country about different types of vi
 
 The following distribution represents film certifiactes available over decades. 
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/12249292"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/12249745"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
 Here is a plot of the proportion of country producing films.
