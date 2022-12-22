@@ -11,13 +11,13 @@ After the Aurora shooting in Colorado in July 2012 (twelve people killed and 58 
 
 ## Research questions 
 
-1.) [How does the public tolerate and appreciate violence in terms of tone and targets]() ?
+1.) [How does the public tolerate and appreciate violence in terms of tone and targets](https://maelysbillon.github.io/beautiful-jekyll/first-research-question/) ?
 > Following this first question, we evaluate the success of violent movies. In addition, we elaborate typical types of violence for each genre and the tolerance towards violence. 
 
 2.) [How is violence represented in different countries and languages](https://maelysbillon.github.io/beautiful-jekyll/second-research-question/)? 
 > Here we identify typical types of violence per country / language and we also want to identify types of violence that are tabood in countries. Furtermore, we try to link the results of different countries trough their geo-political situation. 
 
-3.) [How is violence represented through actors]()? 
+3.) [How is violence represented through actors](https://maelysbillon.github.io/beautiful-jekyll/third-research-question/)? 
 > For each type of violence we find a persona that represents this type of violence. 
 
 ## Proposed additional datasets
