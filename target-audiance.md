@@ -1,6 +1,6 @@
 ---
 layout: page
-title: First research question
+title: Who is the target audience?
 subtitle: How does the public tolerate and appreciate violence in terms of tone and targets ?
 ---
 * * *
