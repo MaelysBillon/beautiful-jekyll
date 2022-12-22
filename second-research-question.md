@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Second research question
 subtitle: How is violence represented in different countries and languages?
 ---
