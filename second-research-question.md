@@ -30,6 +30,7 @@ One thing that we can notice is the peak during the 40's. This can be linked to 
 
 1. Murder
 ![murder_violence](assets/img/proportion_of_murder.png)
+<div class="flourish-embed flourish-chart" data-src="visualisation/12249874"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 1. Torture
 ![torture_violence](assets/img/proportion_of_torture.png)
