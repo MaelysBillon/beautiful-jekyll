@@ -26,6 +26,7 @@ We decide to plot the ratio of movies containing words related to the previously
 1. Widescale violence
 ![Widescale_violence](assets/img/proportion_of_widescale_violence.png)
 One thing that we can notice is the peak during the 40's. This can be linked to the two world wars. (*need some data about the explicitness of violence*). (*need some data about the country that realeased the movies*) 
+<div class="flourish-embed flourish-chart" data-src="visualisation/12249407"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 1. Murder
 ![murder_violence](assets/img/proportion_of_murder.png)
