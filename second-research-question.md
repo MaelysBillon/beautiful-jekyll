@@ -35,3 +35,5 @@ One thing that we can notice is the peak during the 40's. This can be linked to 
 
 1. Sexual violence
 ![sexual_violence](assets/img/proportion_of_sexual_violence.png)
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/12248536"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
