@@ -22,9 +22,9 @@ author: Dogeeseseegod
 navbar-links:
   #About Me: "aboutme"
   Research question:
-    - first: "https://beautifuljekyll.com"
-    - second: "https://maelysbillon.github.io/beautiful-jekyll/2020-02-26-flake-it-till-you-make-it/"
-    - third: "https://www.markdowntutorial.com/"
+    - first: "https://maelysbillon.github.io/beautiful-jekyll/first-research-question/"
+    - second: "https://maelysbillon.github.io/beautiful-jekyll/second-research-question/"
+    - third: "https://maelysbillon.github.io/beautiful-jekyll/third-research-question/"
   #Author's home: "https://deanattali.com"
 
 ################
