@@ -1,9 +1,13 @@
 ---
 layout: page
-title: Who is the target audience?
-subtitle: How does the public tolerate and appreciate violence in terms of tone and targets ?
+title: How does the public tolerate and appreciate violence in terms of tone and targets ?
+subtitle: How successful are violent movies? In which genres is violence more tolerated? 
 ---
 * * *
+
+This data story studies the presence of violence in the [CMU Movie Summary Corpus](http://www.cs.cmu.edu/~ark/personas/). We use a bag-of-words approach to detect different types of violence in a movie summary. The following word cloud shows the 130 words in our violence dictionary colored by type of violence. A word's frequency in the movie summary corpus determines its size. 
+
+<div class="flourish-embed" data-src="visualisation/12251430"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 Some visualiztion how violence is distributed among different genres 
 
