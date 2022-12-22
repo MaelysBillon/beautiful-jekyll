@@ -25,6 +25,15 @@ Here is the distribution of films certifiactes available over decades.
 
 TODO : ANALYZE THE PLOT
 
+Here is a plot of the proportion of coutry producing films.
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/12248773"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+**The extracted dataset contains a large majority of american films and were shot mostly in the 2000s. 
+
+
+### 2. Analysis
+
 
 The distribution of the type of violence extracted from the summary of the films against the type of violence extracted from the age advisory certfiacates : 
 
@@ -32,8 +41,6 @@ The distribution of the type of violence extracted from the summary of the films
 
 TODO : ANALYZE THE PLOT
 
-Here is a plot of the proportion of coutry producing films.
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/12248773"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-TODO : ANALYZE THE PLOT
+
