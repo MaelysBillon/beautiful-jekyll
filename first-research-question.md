@@ -13,7 +13,7 @@ We can notice the difference of representation by looking at the proportion of f
 
 ![proportions](assets/img/proportion_violence_types.png)
 
-We measure the appreciation of vilence in movies trough the box office revenue. In particular, we do a regression analysis with the revenue as outcome and indicator variables for each type of violence as predictors. The following plot shows the regression coefficients for each type of violence. 
+We measure the appreciation of violence in movies through the box office revenue. In particular, we do a regression analysis with the revenue as outcome and indicator variables for each type of violence as predictors. The following plot shows the regression coefficients for each type of violence. 
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12258469"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
