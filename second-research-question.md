@@ -61,7 +61,7 @@ To realize this analysis we thought that interactive graphs would allow us to ha
 
 ### Sexual violence
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/12258193"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/12255875"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 As stated before at first the result does not seem to be that shocking. The US dominates all previous graphs. However, we can notice that their percentage of presence during the 60s is decreasing in all types of violence, meaning that the US had a more peaceful filmography during this decade. An explanation can be that the hippie movement was taking place in this country, it was a countercultural movement that promoted peace.
 
@@ -86,3 +86,25 @@ Following Latin, there are a lot of languages that can be grouped as "Chinese di
 <div class="flourish-embed flourish-chart" data-src="visualisation/12257402"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 Drama is one of the top genre in our dataset, it is not surprising to see it there. This genre is also knonwn to have a high percentage of violent movies. But what is more interesting is to see "Period piece" or "Costume drama" in the top 5. This show us that movies using latin are for the most part historic movies most surely ones depicting the Ancient Rome era, with its gladiator, wars, political slaughters etc. This is why Latin is the most violent language. As a side note some genre can be merged as other genre are used to depict Costume movies, here it will make sense to put those genres together (same apply for Period piece and Historic movies).
+
+* * *
+# Gender disparities
+
+It can be interesting to see how genders relate to violence representations. 
+
+Do men or women appear more often in violent content ? If yes, of which type ? 
+
+To see, for each actor/ actress we can find the proportion of violent movies in which he plays out of the entire
+filmography. Having done for each actor, we can then use histograms to visualize the distribution of the number of actors in function 
+of the proportion of films, in the actor's filmography, that contain a certain type of violence in the summary. And we do a separate histogram
+for each type of violence. The distributions of male and females are superposed to see the differences. 
+
+* * *
+
+![gender disparities](assets/img/gender_analysis.png)
+
+We can see that the distributions of males and females differ mostly in scale. Indeed, there is significant higher number of male
+actors. Otherwise, the distributions have similar shape between genders. On closer inspection, except for torture and sexual violence,
+male distributions are skewed slightly to the right, meaning that there is a majority of males with high proportion of violence in their filmography. Also, notice that, on the top left histogram, there is a small bump of female actors with 50% violence in their filmography. 
+Opposedly, on the bottom right histogram, there is a small bump of male actors who have a proportion close to 0 of "other violences",
+which in our categorization, refers to lighter violence as opposed to murder, wide-scale violence, sexual violence and torture.
