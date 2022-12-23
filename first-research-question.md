@@ -24,35 +24,11 @@ Now we dive deeper into violence in genres and analyze for the ten genres with t
 Overall genres, the presence of other violence has a not significant or small significant positive or negative contribution to the parental ratings. Interestingly, the existence of wide-scale violence tends to reduce the parental rating. The presence of torture, sexual violence, or murder increases a film's parental rating by more than two years on average. The tolerance towards murder and torture is volatile across genres. Consider horror movies and thrillers. Both have a high parental rating without the presence of any violence. However, thrillers tolerate murder more than horror movies, but horror movies tolerate torture more than thrillers. The tolerance towards sexual violence is more constant. Its presence adds at least 1.1 years to the parental rating in any of the most popular genres.  Fascinating are also comedies. Without any violence, they have a lower parental rating than the average movie without violence. However, they are more tolerant of torture and murder. 
 
 
+### Talking about violence vs scene of explicit violence
+
+One can also interrest on the appearance of violence in the film. Another question is how violence is extracted in our films? Here we will compare the information extracted on the type of violence from the film summary available on IMDb and from the parental guide advisory. The guide gives us information about the explicity of the movie scenes while the summary tells us whether the film deals with a violent subject. 
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12251739"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-
-
-### 1. Extraction of the parental advisory, explanation of the dataset
-
-We can now analyze what is the tolerance per country about different types of violence. To do so, we have extracted the age advisory (parental certificate) from each country. Since there are missing values for countries, we decided to keep the certificates of few of them. We have in the following used dataset, film age advisories of 800 films and of 15 different countries : ['Argentina', 'Australia', 'Brazil', 'Canada', 'Finland', 'Germany', 'Ireland', 'Netherlands', 'Norway', 'Portugal', 'Singapore', 'South Korea', 'Spain', 'Sweden', 'United Kingdom'] from 1960 to 2010. To compare countries with each other we takes movies where certificates are available for each of these. We end up with a datset of 833 movies.
-
-The following distribution represents film certifiactes available over the decades. 
-
-<div class="flourish-embed flourish-chart" data-src="visualisation/12249745"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-
-Here is a plot of the proportion of country producing films.
-
-<div class="flourish-embed flourish-chart" data-src="visualisation/12248773"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-The extracted dataset contains a large majority of american films and were shot mostly in the 2000s.
-
-
-The violence-type analysis is done using the data collected with the API and not using the summary. Information extracted from summaries are less precise since it do not reveal the content of the film, only it main synopsis. The API gives us the sensible content of the film incuding 'nudity', 'violence', 'profanity'. The following plot compares the type of violence extracted from the summaries versus the one extracted from the parental advisory.
-
-Murders and wide-scale violence are more often detected by the summary extraction since it often appear to be a film topic present in the synopses while the explicit murder scenes do not appear. In the case of sexual abuse or torture, explicit violence may be present in certain scenes and may not appear in the summary of the film. 
-
-<div class="flourish-embed flourish-chart" data-src="visualisation/12249292"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-
-### 2. Analysis per country
 
 
 
