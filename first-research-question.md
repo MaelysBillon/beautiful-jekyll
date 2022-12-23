@@ -9,15 +9,11 @@ This data story studies the presence of violence in the [CMU Movie Summary Corpu
 
 <div class="flourish-embed" data-src="visualisation/12251430"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-<<<<<<< HEAD
 We can notice the difference of representation by looking at the proportion of films that contain a certain type of violence for each type. Sexual violence and torture are in the minority. 
 
 ![proportions](assets/img/proportion_violence_types.png)
 
 We measure the appreciation of vilence in movies trough the box office revenue. In particular, we do a regression analysis with the revenue as outcome and indicator variables for each type of violence as predictors. The following plot shows the regression coefficients for each type of violence. 
-=======
-We measure the appreciation of violence in movies through the box office revenue. In particular, we do a regression analysis with the revenue as outcome and indicator variables for each type of violence as predictors. The following plot shows the regression coefficients for each type of violence.
->>>>>>> b2803cb94e4af638d8b474ba1eb95816eeda9081
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12258469"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
@@ -29,7 +25,7 @@ The problem with the previous analysis is that we do not consider confounding fa
 
 Although the influence of violence on movie revenue decreases, it still has a significant contribution of more than 24 million USD on average. Altogether our results show that the public appreciates violence in movies. 
 
-We can now see if we can see similar trends in movie ratings, i.e., how well films are evaluated instead of the revenue they make. From IMDb, we get average ratings of films with a number of votes superior than 50. Then, we can display the distribution of average rating of the movies for each category of violence including a new category of no violence, which corresponds to a film without violence. Note that the average figure is an average of average ratings. The first order of average is an average over a voters community. The second order of average is the average of the average ratings of films for one category of violence. See the following boxplots 
+We will now, study movie ratings, i.e., how well films are evaluated instead of the revenue they make. From IMDb, we get average ratings of films with a number of votes superior than 50. Then, we can display the distribution of average rating of the movies for each category of violence including a new category of no violence, which corresponds to a film without violence. Note that the average figure is an average of average ratings. The first order of average is an average over a voters community. The second order of average is the average of the average ratings of films for one category of violence. See the following boxplots 
 
 ![average ratings](assets/img/average_ratings.png)
 
