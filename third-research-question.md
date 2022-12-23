@@ -19,8 +19,7 @@ for each type of violence. The distributions of male and females are superposed 
 ![gender disparities](assets/img/gender_analysis.png)
 
 We can see that the distributions of males and females differ mostly in scale. Indeed, there is significant higher number of male
-actors. But other than that, the distributions have similar shape between genders. On closer inspection, except for torture and sexual violence,
-male distributions are skewed slightly to the right, meaning there is a majority of males with high proportion of violence in their filmography.
-Notice also, on the top left histogram, that there is a small bump of female actors with 50% violence in their filmography. 
+actors. Otherwise, the distributions have similar shape between genders. On closer inspection, except for torture and sexual violence,
+male distributions are skewed slightly to the right, meaning that there is a majority of males with high proportion of violence in their filmography. Also, notice that, on the top left histogram, there is a small bump of female actors with 50% violence in their filmography. 
 Opposedly, on the bottom right histogram, there is a small bump of male actors who have a proportion close to 0 of "other violences",
 which in our categorization, refers to lighter violence as opposed to murder, wide-scale violence, sexual violence and torture.
