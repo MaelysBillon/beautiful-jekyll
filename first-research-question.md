@@ -42,4 +42,10 @@ Each country has its own tolerance for violence, that's why it's interesting to 
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12258255"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+Germany, Sweden and Netherlands penalise torture more than sexual abuse in terms of age warning. For the rest of the countries the sexual violence is more penalized. Argentina, United Kingdom and South Korea are the most restrictive with regard to sexual violence with a difference of 0.86, 0.81, 0.86 respictively with the average of the violent films.
 
+Temporal analysis can also give us information about the variation of parental certificates. 
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/12258399"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+For the majority of these countries, the average age advisory is clearly going dropping, with a record difference held by Norway where the average age of restriction has fallen by 3.08 years in 30 years.
