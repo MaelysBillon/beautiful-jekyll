@@ -21,11 +21,21 @@ Conflicts, instability, and morality can influence people's desire to see explic
 
 As in the rest of our project we separate 4 different types of violence namely **"murder"**, **"torture"**, **"widescale violence"** and **"sexual violence"**.
 
-We decide to plot the ratio of movies containing words related to the previously stated types of violence in function of release year.
+We decide to plot the ratio of movies containing words related to the previously stated types of violence in function of release year. 
 
-1. Widescale violence
 ![Widescale_violence](assets/img/proportion_of_widescale_violence.png)
-One thing that we can notice is the peak during the 40's. This can be linked to the two world wars. (*need some data about the explicitness of violence*). (*need some data about the country that realeased the movies*) 
+![murder_violence](assets/img/proportion_of_murder.png)
+![torture_violence](assets/img/proportion_of_torture.png)
+![sexual_violence](assets/img/proportion_of_sexual_violence.png)
+
+Theses distribution show us to main things:
+- **Murder and wide-scale violence have always been the most represented type of violences compare to torture and sexual violence.**
+> The last two barely reach the 10% of representation in their best decades, but wide-scale violence and murder are almost touching the 50%. One explanation (that has been showed in the previous part) is that presence of terms related to murder and wide-scale violent does not nececerally mean that this violence is explicit and is show graphically. Torture and sexual violence in the other hand are not as promoted in the summary. 
+This can be linked to those type of violence to be less appealing, more taboo around the world. 
+
+
+
+One thing that we can notice is the peak during the 40's. This can be linked to the two world wars. 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12249407"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 1. Murder
