@@ -69,6 +69,9 @@ TODO war regressions and analyze
 
 ## Violence through languages
 
-TODO put the plots for languages
+<div class="flourish-embed flourish-chart" data-src="visualisation/12257124"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+### The most violent languages
+<div class="flourish-embed flourish-chart" data-src="visualisation/12257402"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 TODO Analyze the plots and Show the distribution of latin movies to explain why this languages is the "most violent one"
