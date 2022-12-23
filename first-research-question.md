@@ -27,35 +27,19 @@ Now we dive deeper into violence in genres and analyze for the ten genres with t
 
 Overall genres, the presence of other violence has a not significant or small significant positive or negative contribution to the parental ratings. Interestingly, the existence of wide-scale violence tends to reduce the parental rating. The presence of torture, sexual violence, or murder increases a film's parental rating by more than two years on average. The tolerance towards murder and torture is volatile across genres. Consider horror movies and thrillers. Both have a high parental rating without the presence of any violence. However, thrillers tolerate murder more than horror movies, but horror movies tolerate torture more than thrillers. The tolerance towards sexual violence is more constant. Its presence adds at least 1.1 years to the parental rating in any of the most popular genres.  Fascinating are also comedies. Without any violence, they have a lower parental rating than the average movie without violence. However, they are more tolerant of torture and murder. 
 
+### Country restriction on the explicity of violent scenes
+
+In order to anlyze the country restriction on movies, we have pulled out the perental guide from IMDb. This data set contains information on the explicitness of violence scenes and the age restriction per country. 
+Here we will first compare the information extracted on the type of violence from the film summary of the movie and compare it to the information extracted from the parental guide advisory. 
+
 <div class="flourish-embed flourish-chart" data-src="visualisation/12251739"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-### 1. Extraction of the parental advisory, explanation of the dataset
+All genres combined, violence is much more detected by the summary analysis. However, with regard to murders and scenes of sexual violence, there is more detection on the parental guide. This is because the summaries do not disclose the presence of violence in specific scenes of the film, especially in the case of torture and sexual scenes.
 
-We can now analyze what is the tolerance per country about different types of violence. To do so, we have extracted the age advisory (parental certificate) from each country. Since there are missing values for countries, we decided to keep the certificates of few of them. We have in the following used dataset, film age advisories of 800 films and of 15 different countries : ['Argentina', 'Australia', 'Brazil', 'Canada', 'Finland', 'Germany', 'Ireland', 'Netherlands', 'Norway', 'Portugal', 'Singapore', 'South Korea', 'Spain', 'Sweden', 'United Kingdom'] from 1960 to 2010. To compare countries with each other we takes movies where certificates are available for each of these. We end up with a datset of 833 movies.
+For the following analysis, we keep the dataset from the parental guide advisory since it gives us more information about the shocking nature of the scenes.
 
-The following distribution represents film certifiactes available over the decades. 
+Each country has its own tolerance for violence, that's why it's interesting to compare the differences. The following plot represents the mean of the age restriction among 1500 films for 10 different countries. On the y-axis is the mean of the age restriction for all violent films and for the 3 subcategories of violence. 
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/12249745"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-
-Here is a plot of the proportion of country producing films.
-
-<div class="flourish-embed flourish-chart" data-src="visualisation/12248773"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-The extracted dataset contains a large majority of american films and were shot mostly in the 2000s.
-
-
-The violence-type analysis is done using the data collected with the API and not using the summary. Information extracted from summaries are less precise since it do not reveal the content of the film, only it main synopsis. The API gives us the sensible content of the film incuding 'nudity', 'violence', 'profanity'. The following plot compares the type of violence extracted from the summaries versus the one extracted from the parental advisory.
-
-Murders and wide-scale violence are more often detected by the summary extraction since it often appear to be a film topic present in the synopses while the explicit murder scenes do not appear. In the case of sexual abuse or torture, explicit violence may be present in certain scenes and may not appear in the summary of the film. 
-
-<div class="flourish-embed flourish-chart" data-src="visualisation/12249292"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-
-### 2. Analysis per country
-
-
-
-
+<div class="flourish-embed flourish-chart" data-src="visualisation/12258255"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
