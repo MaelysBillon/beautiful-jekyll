@@ -9,15 +9,25 @@ This data story studies the presence of violence in the [CMU Movie Summary Corpu
 
 <div class="flourish-embed" data-src="visualisation/12251430"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+<<<<<<< HEAD
 We can notice the difference of representation by looking at the proportion of films that contain a certain type of violence for each type. Sexual violence and torture are in the minority. 
 
 ![proportions](assets/img/proportion_violence_types.png)
 
 We measure the appreciation of vilence in movies trough the box office revenue. In particular, we do a regression analysis with the revenue as outcome and indicator variables for each type of violence as predictors. The following plot shows the regression coefficients for each type of violence. 
+=======
+We measure the appreciation of violence in movies through the box office revenue. In particular, we do a regression analysis with the revenue as outcome and indicator variables for each type of violence as predictors. The following plot shows the regression coefficients for each type of violence.
+>>>>>>> b2803cb94e4af638d8b474ba1eb95816eeda9081
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12258469"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-The precence of murder, wide-scale violence and other violence has a significant positive effect on the movie revenue. On average, the precence of each of the before adds more than 20 million US-dollars (USD) to the revenue on average. On the other hand, the revenue of sexually violent films is on average more than 13 million USD smaller than the revenue of not sexually violent movies. For torture, we cannot make a significant statement. 
+Murder, wide-scale violence, and other violence positevely influences movie revenue. The presence of each of the before adds more than 19 million US dollars (USD) to the table on average. On the other hand, the revenue of sexually violent films is on average more than 14 million USD less than the revenue of not sexually violent movies. For torture, we cannot make a significant statement.
+
+The problem with the previous analysis is that we do not consider confounding factors on revenue. One possible confounder hypothesis would be the movie budget, as a high investment expects high revenues. At the same time, a film with a high budget tends to be more spectacular, therefore, more likely to show battles or confrontations. So we scraped the movie budgets from [IMDB](https://www.imdb.com/) to deepen our analysis. Indeed, the Pearson correlation coefficient between revenue and budget is 0.69 at a p-value that tends to zero, indicating a relation between budget and revenue. Another indicator that budget might be a confounding factor is that more than 90% of high-budget movies are violent. Hence,  we create a balanced dataset of pairs of violent and non-violent movies matched by budget. We also match the decades of production to account for inflation. Our matching contains 481 pairs. Now we do a regression analysis with the indicator of violence as a predictor and revenue as an outcome. Here we only use the presence of any violence as a predictor and not the fine-grained types because we matched on the presence of general violence. The following plot compares the regression results on the matched dataset to the unmatched dataset.
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/12259126"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+Although the influence of violence on movie revenue decreases, it still has a significant contribution of more than 24 million USD on average. Altogether our results show that the public appreciates violence in movies. 
 
 We can now see if we can see similar trends in movie ratings, i.e., how well films are evaluated instead of the revenue they make. From IMDb, we get average ratings of films with a number of votes superior than 50. Then, we can display the distribution of average rating of the movies for each category of violence including a new category of no violence, which corresponds to a film without violence. Note that the average figure is an average of average ratings. The first order of average is an average over a voters community. The second order of average is the average of the average ratings of films for one category of violence. See the following boxplots 
 
@@ -38,25 +48,24 @@ Now we dive deeper into violence in genres and analyze for the ten genres with t
 
 Overall genres, the presence of other violence has a not significant or small significant positive or negative contribution to the parental ratings. Interestingly, the existence of wide-scale violence tends to reduce the parental rating. The presence of torture, sexual violence, or murder increases a film's parental rating by more than two years on average. The tolerance towards murder and torture is volatile across genres. Consider horror movies and thrillers. Both have a high parental rating without the presence of any violence. However, thrillers tolerate murder more than horror movies, but horror movies tolerate torture more than thrillers. The tolerance towards sexual violence is more constant. Its presence adds at least 1.1 years to the parental rating in any of the most popular genres.  Fascinating are also comedies. Without any violence, they have a lower parental rating than the average movie without violence. However, they are more tolerant of torture and murder. 
 
-### Country restriction on the explicity of violent scenes
+### Country restrictions on violent scenes
 
-In order to anlyze the country restriction on movies, we have pulled out the perental guide from IMDb. This data set contains information on the explicitness of violence scenes and the age restriction per country. 
-Here we will first compare the information extracted on the type of violence from the film summary of the movie and compare it to the information extracted from the parental guide advisory. 
+We continue working with the parental ratings and now also consider the parental guide from IMDb. This data set additionaly contains information on the explicitness of violent scenes. Here we will first compare the information extracted on the type of violence from the film summary of the movie and compare it to the violence types extracted from the parental guide advisory. 
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12251739"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-All genres combined, violence is much more detected by the summary analysis. However, with regard to murders and scenes of sexual violence, there is more detection on the parental guide. This is because the summaries do not disclose the presence of violence in specific scenes of the film, especially in the case of torture and sexual scenes.
+Overall genres, violence is much more detected by the summary analysis. However, concerning murders and scenes of sexual violence, there is more detection on the parental guide. This is because the summaries do not disclose the presence of violence in specific scenes of the film, especially in the case of torture and sexual scenes. 
 
 For the following analysis, we keep the dataset from the parental guide advisory since it gives us more information about the shocking nature of the scenes.
 
-Each country has its own tolerance for violence, that's why it's interesting to compare the differences. The following plot represents the mean of the age restriction among 1500 films for 10 different countries. On the y-axis is the mean of the age restriction for all violent films and for the 3 subcategories of violence. 
+Each country has its tolerance for violence. Therefore, it's interesting to compare the differences. The following plot represents the mean of the age restriction among 1500 films from 10 different countries. On the y-axis is the mean of the age restriction for all violent films and three subcategories of violence. 
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12258255"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-Germany, Sweden and Netherlands penalise torture more than sexual abuse in terms of age warning. For the rest of the countries the sexual violence is more penalized. Argentina, United Kingdom and South Korea are the most restrictive with regard to sexual violence with a difference of 0.86, 0.81, 0.86 respictively with the average of the violent films.
+Germany, Sweden, and the Netherlands assign a higher age warning for torture than sexual abuse. For the rest of the countries, sexual violence is more penalized. Argentina, the United Kingdom, and South Korea are the most restrictive about sexual violence, with a difference of 0.86, 0.81, 0.86, respectively, with the average of the violent films.
 
 Temporal analysis can also give us information about the variation of parental certificates. 
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12258399"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-For the majority of these countries, the average age advisory is clearly going dropping, with a record difference held by Norway where the average age of restriction has fallen by 3.08 years in 30 years.
+For the majority of these countries, the average age advisory drops. It drops most in Norway, where the average age of restriction declined by 3.08 years in 30 years.
