@@ -7,4 +7,4 @@ subtitle: How is violence represented through actors?
 * * *
 
 1. T
-![murder_violence](assets/img/gender_analysis.png)
+![gender disparities](assets/img/gender_analysis.png)
