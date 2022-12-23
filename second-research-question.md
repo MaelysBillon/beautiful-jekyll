@@ -23,12 +23,7 @@ As in the rest of our project we separate 4 different types of violence namely *
 
 We decide to plot the ratio of movies containing words related to the previously stated types of violence in function of release year. 
 
-TODO: display in a more onteresting way those 4 graphs 
-
-![Widescale_violence](assets/img/proportion_of_widescale_violence.png)
-![murder_violence](assets/img/proportion_of_murder.png)
-![torture_violence](assets/img/proportion_of_torture.png)
-![sexual_violence](assets/img/proportion_of_sexual_violence.png)
+<div class="flourish-embed flourish-chart" data-src="visualisation/12255788"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 Theses distribution show us to main things:
 - **Murder and wide-scale violence have always been the most represented type of violences compare to torture and sexual violence.**
@@ -41,7 +36,7 @@ This can be linked to those type of violence to be less appealing, more taboo ar
 
 
 
-One thing that we can notice is the peak during the 40's. This can be linked to the two world wars. 
+1. wide-scale violence
 <div class="flourish-embed flourish-chart" data-src="visualisation/12249407"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 1. Murder
