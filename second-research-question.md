@@ -17,7 +17,7 @@ Conflicts, instability, and morality can influence people's desire to see explic
 
 * * *
 
-## Violence representation throughout the decades
+## Violence throughout the decades
 
 As in the rest of our project we separate 4 different types of violence namely **"murder"**, **"torture"**, **"widescale violence"** and **"sexual violence"**.
 
@@ -25,29 +25,47 @@ We decide to plot the ratio of movies containing words related to the previously
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12255788"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-Theses distribution show us to main things:
+Theses distribution show us two main things:
 - **Murder and wide-scale violence have always been the most represented type of violences compare to torture and sexual violence.**
 > The last two barely reach the 10% of representation in their best decades, but wide-scale violence and murder are almost touching the 50%. One explanation (that has been showed in the previous part) is that presence of terms related to murder and wide-scale violent does not nececerally mean that this violence is explicit and is show graphically. Torture and sexual violence in the other hand are not as promoted in the summary. 
 This can be linked to those type of violence to be less appealing, more taboo around the world. 
 
 - **Each type of violence is experiencing a increasing representation through the decades, following a big peak, this peak happens in a different decades**
 > The most striking example is sexual violence, its representation more than doubles between the 50's and the 70's. Between these decades the United States experienced a sexual liberation, that comes with a speech freedom around sexual violence. The soft power of the US during theses years was huge and this revolution surely impact other countries around the world. However, we must temper this analysis: this type of violence remains marginal and is clearly not one of the most striking of the 1970s.
-> wide-scale analysis
+
+> wide-scale violence see its peak in the 40s. We can try to explain it by the world war that happens during this time period. A fun thing to notice is that during the few decades after the world war II the top genre of movies with wide-scale violence in their summary was "Drama" by far. However in the 70s the "Action" genre was the second most using these terms, in the 40s it was not even is the top10. This show a shift in the representation of violence. 
 
 
+Even if the number of movies using different terms of violence in their summary is the same or is evolving does not mean that its representation is the same throughout the era. Everyone has already heard some parents say that "in my youth the movies were telling a story now it's just blood and guns".
 
-1. wide-scale violence
+* * *
+
+## Violence through the world
+TODO quick introduction about culture, taboo politics 
+### Wide-scale violence
+
 <div class="flourish-embed flourish-chart" data-src="visualisation/12249407"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-1. Murder
-![murder_violence](assets/img/proportion_of_murder.png)
+### Murder
+
 <div class="flourish-embed flourish-chart" data-src="visualisation/12249874"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-1. Torture
-![torture_violence](assets/img/proportion_of_torture.png)
+### Torture
+
 <div class="flourish-embed flourish-chart" data-src="visualisation/12249641"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-1. Sexual violence
-![sexual_violence](assets/img/proportion_of_sexual_violence.png)
+### Sexual violence
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12248536"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+TODO analyze the previous plots 
+
+TODO war regressions and analyze
+
+* * *
+
+## Violence through languages
+
+TODO put the plots for languages
+
+TODO Analyze the plots and Show the distribution of latin movies to explain why this languages is the "most violent one"
