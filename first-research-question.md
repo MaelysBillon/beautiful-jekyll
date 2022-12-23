@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tolerance and Appreciation of Violence
-subtitle: How successful are violent movies? In which genres is violence more tolerated?
+title: Who is the target audience?
+subtitle: How does the public tolerate and appreciate violence in terms of tone and targets ?
 ---
 * * *
 
@@ -23,11 +23,17 @@ Now we dive deeper into violence in genres and analyze for the ten genres with t
 
 Overall genres, the presence of other violence has a not significant or small significant positive or negative contribution to the parental ratings. Interestingly, the existence of wide-scale violence tends to reduce the parental rating. The presence of torture, sexual violence, or murder increases a film's parental rating by more than two years on average. The tolerance towards murder and torture is volatile across genres. Consider horror movies and thrillers. Both have a high parental rating without the presence of any violence. However, thrillers tolerate murder more than horror movies, but horror movies tolerate torture more than thrillers. The tolerance towards sexual violence is more constant. Its presence adds at least 1.1 years to the parental rating in any of the most popular genres.  Fascinating are also comedies. Without any violence, they have a lower parental rating than the average movie without violence. However, they are more tolerant of torture and murder. 
 
+
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/12251739"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+
+
 ### 1. Extraction of the parental advisory, explanation of the dataset
 
-We can now analyze what is the tolerance per country about different types of violence. To do so, we have extracted the age advisory (parental certificate) from each country. Since there are missing values for countries, we decided to keep the certificates of few of them. We have in the following used dataset, film age advisories of 800 films and of 15 different countries : ['Argentina', 'Australia', 'Brazil', 'Canada', 'Finland', 'Germany','Ireland', 'Netherlands', 'Norway', 'Portugal','Singapore', 'South Korea', 'Spain', 'Sweden', 'United Kingdom'] from 1960 to 2010. To compare countries with each other we takes movies where certificates are available for each of these. We end up with a datset of 833 movies.
+We can now analyze what is the tolerance per country about different types of violence. To do so, we have extracted the age advisory (parental certificate) from each country. Since there are missing values for countries, we decided to keep the certificates of few of them. We have in the following used dataset, film age advisories of 800 films and of 15 different countries : ['Argentina', 'Australia', 'Brazil', 'Canada', 'Finland', 'Germany', 'Ireland', 'Netherlands', 'Norway', 'Portugal', 'Singapore', 'South Korea', 'Spain', 'Sweden', 'United Kingdom'] from 1960 to 2010. To compare countries with each other we takes movies where certificates are available for each of these. We end up with a datset of 833 movies.
 
-The following distribution represents film certifiactes available over decades. 
+The following distribution represents film certifiactes available over the decades. 
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12249745"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
@@ -47,3 +53,9 @@ Murders and wide-scale violence are more often detected by the summary extractio
 
 
 ### 2. Analysis per country
+
+
+
+
+
+
