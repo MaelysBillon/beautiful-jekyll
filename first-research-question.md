@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Who is the target audience?
-subtitle: How does the public tolerate and appreciate violence in terms of tone and targets ?
+title: Tolerance and Appreciation of Violence
+subtitle: How successful are violent movies? In which genres is violence more tolerated?
 ---
 * * *
 
