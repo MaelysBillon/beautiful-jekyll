@@ -61,7 +61,7 @@ To realize this analysis we thought that interactive graphs would allow us to ha
 
 ### Sexual violence
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/12248536"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/12258193"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 As stated before at first the result does not seems to be that chocking. The US dominates all previous graphs. However we can notice that their percentage of presence during the 60s is decreasing in all types of violence, meaning that the US had a more peaceful filmography during this decade. An explanation can be that the hippie movement was taking place in this country, it was a countercultural movement which promoted peace.
 
@@ -79,9 +79,13 @@ To answer this question, we will look at the ratio of violent movies in various 
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12257124"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+Latin is the language of violence given that more than 90% of its filmography is violent. In comparaison Greek is the language with the less percentage of violent film. Greek is refering to modern Greek since the movies that are using this language are for the most part Greek movies or their genre is "World movie". 
 
+Following Latin there is a lot of languages that can be groups as "chinese dialects". This can easily be explained by the fact that Hong Kong is one of the top violent movies producers with almost 90% of violent movies in its filmography. Even if english speaking countries, English is not even in the top 10 of violent languages. This is thanks to all the other countries that speak english as a national language.
+
+* * *
 
 ### The most violent languages
 <div class="flourish-embed flourish-chart" data-src="visualisation/12257402"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-TODO Analyze the plots and Show the distribution of latin movies to explain why this languages is the "most violent one"
+Drama is one of the top genre in our dataset, it is not surprising to see it there. This genre is also knonwn to have a high percentage of violent movies. But what is more interesting is to see "Period piece" or "Costume drama" in the top 5. This show us that movies using latin are for the most part historic movies most surely ones depicting the Ancient Rome era, with its gladiator, wars, political slaughters etc. This is why Latin is the most violent language. As a side note some genre can be merged as other genre are used to depict Costume movies, here it will make sense to put those genres together (same apply for Period piece and Historic movies).
