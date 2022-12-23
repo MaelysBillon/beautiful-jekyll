@@ -24,13 +24,6 @@ Now we dive deeper into violence in genres and analyze for the ten genres with t
 Overall genres, the presence of other violence has a not significant or small significant positive or negative contribution to the parental ratings. Interestingly, the existence of wide-scale violence tends to reduce the parental rating. The presence of torture, sexual violence, or murder increases a film's parental rating by more than two years on average. The tolerance towards murder and torture is volatile across genres. Consider horror movies and thrillers. Both have a high parental rating without the presence of any violence. However, thrillers tolerate murder more than horror movies, but horror movies tolerate torture more than thrillers. The tolerance towards sexual violence is more constant. Its presence adds at least 1.1 years to the parental rating in any of the most popular genres.  Fascinating are also comedies. Without any violence, they have a lower parental rating than the average movie without violence. However, they are more tolerant of torture and murder. 
 
 
-### Talking about violence vs scene of explicit violence
-
-One can also interrest on the appearance of violence in the film. Another question is how violence is extracted in our films? Here we will compare the information extracted on the type of violence from the film summary available on IMDb and from the parental guide advisory. The guide gives us information about the explicity of the movie scenes while the summary tells us whether the film deals with a violent subject. 
-
-<div class="flourish-embed flourish-chart" data-src="visualisation/12251739"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-
 
 
 
