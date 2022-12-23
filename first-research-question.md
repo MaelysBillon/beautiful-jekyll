@@ -9,7 +9,11 @@ This data story studies the presence of violence in the [CMU Movie Summary Corpu
 
 <div class="flourish-embed" data-src="visualisation/12251430"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-TODO: appreciation / regression analysis of box office revenue / imdb rating 
+We measure the appreciation of vilence in movies trough the box office revenue. In particular, we do a regression analysis with the revenue as outcome and indicator variables for each type of violence as predictors. The following plot shows the regression coefficients for each type of violence. 
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/12258469"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+The precence of murder, wide-scale violence and other violence has a significant positive effect on the movie revenue. On average, the precence of each of the before adds more than 20 million US-dollars (USD) to the revenue on average. On the other hand, the revenue of sexually violent films is on average more than 13 million USD smaller than the revenue of not sexually violent movies. For torture, we cannot make a significant statement. 
 
 After measuring the appreciation of violence, we want to evaluate the tolerance towards violence in movies. Furthermore, we want to determine if the context of violence influences tolerance. Our approach is to use the genre of a movie as a proxy for the context of violence. First, we catch a glimpse of the distribution of films through genres and determine popular types of violence in a genre. The following interactive graphic has one dot for each genre with more than 60 movies. A genre's popup shows the absolute number of films, the dominant type of violence, and each type of violence's percentage of films containing this kind of violence. The nodes can be sized by the forenamed ratios and absolute values and grouped by the dominant type of violence. Furthermore, one can filter for the ten most popular genres according to the number of movies. 
 
@@ -34,8 +38,14 @@ All genres combined, violence is much more detected by the summary analysis. How
 
 For the following analysis, we keep the dataset from the parental guide advisory since it gives us more information about the shocking nature of the scenes.
 
+Each country has its own tolerance for violence, that's why it's interesting to compare the differences. The following plot represents the mean of the age restriction among 1500 films for 10 different countries. On the y-axis is the mean of the age restriction for all violent films and for the 3 subcategories of violence. 
 
+<div class="flourish-embed flourish-chart" data-src="visualisation/12258255"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+Germany, Sweden and Netherlands penalise torture more than sexual abuse in terms of age warning. For the rest of the countries the sexual violence is more penalized. Argentina, United Kingdom and South Korea are the most restrictive with regard to sexual violence with a difference of 0.86, 0.81, 0.86 respictively with the average of the violent films.
 
+Temporal analysis can also give us information about the variation of parental certificates. 
 
+<div class="flourish-embed flourish-chart" data-src="visualisation/12258399"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+For the majority of these countries, the average age advisory is clearly going dropping, with a record difference held by Norway where the average age of restriction has fallen by 3.08 years in 30 years.

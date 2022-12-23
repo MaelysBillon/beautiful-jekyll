@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Second research question
+title: Representation of violence
 subtitle: How is violence represented in different countries and languages?
 ---
 
