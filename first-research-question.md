@@ -34,8 +34,8 @@ All genres combined, violence is much more detected by the summary analysis. How
 
 For the following analysis, we keep the dataset from the parental guide advisory since it gives us more information about the shocking nature of the scenes.
 
+Each country has its own tolerance for violence, that's why it's interesting to compare the differences. The following plot represents the mean of the age restriction among 1500 films for 10 different countries. On the y-axis is the mean of the age restriction for all violent films and for the 3 subcategories of violence. 
 
-
-
+<div class="flourish-embed flourish-chart" data-src="visualisation/12258255"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
